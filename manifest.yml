@@ -1,0 +1,11 @@
+applications:
+- path: .
+  memory: 512M
+  instances: 1
+  domain: mybluemix.net
+  name: local-pratik
+  host: local-pratik
+  disk_quota: 1024M
+  services:
+  - local-pratik-imfpush
+  - local-pratik-cloudantNoSQLDB
